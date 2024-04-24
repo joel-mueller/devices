@@ -40,7 +40,7 @@ mpv (path of the video)
 
 ```
 brew install yt-dlp
-yt-dlp "https://www.youtube.com/watch?v=xvFZjo5PgG0"
+yt-dlp "https://www.youtube.com/watch?v=uHgt8giw1LY"
 ```
 
 Alternative Seite —> https://ytmp3.nu/aIBN/
