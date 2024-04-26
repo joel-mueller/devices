@@ -55,12 +55,14 @@ MP4
 
 ```
 ffmpeg -i input.mkv -codec copy output.mp4
+ffmpeg -i input.webm -c:v libx264 -c:a aac output.mp4
 ```
 
 MP3
 
 ```
 ffmpeg -i input.mkv -vn -ar 44100 -ac 2 -ab 192k -f mp3 output.mp3
+ffmpeg -i input.webm -vn -ar 44100 -ac 2 -ab 192k -f mp3 output.mp3
 ```
 
 ## OCR with Brew
