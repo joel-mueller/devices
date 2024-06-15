@@ -77,3 +77,23 @@ ocrmypdf -l eng+deu input.pdf output.pdf
 
 Pandoc --> https://pandoc.org
 Kann man mit homebrew machen, aber bisher noch keine Zeit
+
+## Markdown helper
+
+### Merge MD files together
+
+```shell
+brew install pandoc
+```
+
+Merge markdown files together
+
+```shell
+pandoc file1.md file2.md file3.md -o merged.md
+```
+
+### Make table of content
+
+```shell
+pandoc --toc -s example.md -o example_with_toc.md
+```
