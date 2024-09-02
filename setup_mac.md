@@ -23,6 +23,7 @@ rectangle
 zoom
 docker
 anki
+microsoft-outlook
 ```
 
 ### Formulas
