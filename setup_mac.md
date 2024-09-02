@@ -53,3 +53,32 @@ Install pages numbers and keynote from app store
 - When performing a search -> search current folder (Advanced)
 - Show all filename extensions on (Advanced)
 - Finder view and turn Show Toolbar, Show Path Bar and Show Status bar
+
+## Java
+
+Install the Java development package here -> https://code.visualstudio.com/docs/java/java-tutorial
+
+## Python
+
+Wird bereits mit Homebrew heruntergeladen, danach in virtual environments arbeiten
+
+## Main iCloud Mac
+
+Habe ich noch von fruher aber ist mehr relevant wenn man main iCloud macht
+
+```txt
+Namen Joel‘s Mac auf Computer änder
+Freigaben abschalten
+Datenschutzeinstellungen
+File Vault ein
+Firewall ein
+Passwort auf sofort
+Nur Download aus App Store
+Display an zeit verkürzen
+Pages, Numbers, Keynote
+Programme in Dock
+Bildschirmschoner deaktivieren
+Sprache Tastatur nicht oben zeigen
+Siri bei gespertem gerät ausschalten
+Benachrichtigungen ausschalten
+```
