@@ -24,6 +24,7 @@ zoom
 docker
 anki
 microsoft-outlook
+firefox
 ```
 
 ### Formulas
