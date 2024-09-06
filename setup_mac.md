@@ -35,6 +35,7 @@ xargs -I {} brew install {} < brew.txt
 
 ```txt
 git
+gh
 ```
 
 ## App Store
