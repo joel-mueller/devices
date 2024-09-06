@@ -83,3 +83,13 @@ Sprache Tastatur nicht oben zeigen
 Siri bei gespertem gerät ausschalten
 Benachrichtigungen ausschalten
 ```
+
+## SSH Key for github
+
+generate ssh key
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+Add keypair to github
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
