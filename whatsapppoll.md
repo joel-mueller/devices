@@ -26,37 +26,41 @@ import locale
 
 locale.setlocale(locale.LC_TIME, 'de_DE')
 
-def alldays(startDate, endDate, weekday):
-    d = date(startDate[0], startDate[1], startDate[2])
-    e = date(endDate[0], endDate[1], endDate[2])
+NUMBER_OF_QUESTIONS = 12
+WEEKDAYS = [True, True, True, True, True, True, True]
+START_DATE = [2024, 10, 26]
+END_DATE = [2024, 11, 12]
+INDEX = 1
+
+def alldays(weekday):
+    d = date(START_DATE[0], START_DATE[1], START_DATE[2])
+    e = date(END_DATE[0], END_DATE[1], END_DATE[2]) + timedelta(days=1)
     d += timedelta(days = (weekday - d.weekday()) % 7)
     while d < e:
         yield d
         d += timedelta(days = 7)
 
-def append(dates, weekdays, startDate, endDate):
-    for i in range(len(weekdays)):
-        if weekdays[i]:
-            for j in alldays(startDate, endDate, i):
+def append(dates):
+    for i in range(len(WEEKDAYS)):
+        if WEEKDAYS[i]:
+            for j in alldays(i):
                 dates.append(j)
     dates.sort()
 
-def datePrinter(weekdays, startDate, endDate, index):
+def datePrinter():
     dates = []
-    append(dates, weekdays, startDate, endDate)
+    append(dates)
+    print(dates)
     time.sleep(5)
-    for i in dates[index[0]:index[1]]:
-        keyboard = Controller()
-        keyboard.type(i.strftime("%A, %d %B %Y"))
-        keyboard.press(Key.tab)
-        keyboard.press(Key.tab)
+    for i in range(NUMBER_OF_QUESTIONS):
+        j = NUMBER_OF_QUESTIONS * INDEX + i
+        if len(dates) > j:
+            date = dates[j]
+            keyboard = Controller()
+            keyboard.type(date.strftime("%A, %d %B %Y"))
+            keyboard.press(Key.tab)
+            keyboard.press(Key.tab)
     time.sleep(1)
 
-#Use it here
-weekdays = [False, False, False, False, True, True, False]
-startDate = [2024, 4, 1]
-endDate = [2030, 12, 31]
-index = [0, 12]
-datePrinter(weekdays, startDate, endDate, index)
+datePrinter()
 ```
-
