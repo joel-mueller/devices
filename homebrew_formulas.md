@@ -98,14 +98,3 @@ pandoc file1.md file2.md file3.md -o merged.md
 pandoc --toc -s example.md -o example_with_toc.md
 ```
 
-## Jupiter Notebook
-
-```shell
-brew install jupyterlab
-```
-
-run the environment with
-
-```shell
-jupyter-lab
-```
