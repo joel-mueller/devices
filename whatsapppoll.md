@@ -30,7 +30,7 @@ NUMBER_OF_QUESTIONS = 12
 WEEKDAYS = [True, True, True, True, True, True, True]
 START_DATE = [2024, 10, 26]
 END_DATE = [2024, 11, 12]
-INDEX = 1
+INDEX = 0
 
 def alldays(weekday):
     d = date(START_DATE[0], START_DATE[1], START_DATE[2])
