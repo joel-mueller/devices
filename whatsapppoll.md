@@ -6,7 +6,7 @@ You should have python allready installed. Install the required libary for runni
 python3 -m pip install pynput
 ```
 
-Go to the directory you want the script and use vim to edit it (`i` to edit, esc button to go into reader mode, `:qw` to safe)
+Go to the directory you want the script and use vim to edit it (`i` to edit, esc button to go into reader mode, `:wq` to safe)
 
 ```shell
 vim poll.py
