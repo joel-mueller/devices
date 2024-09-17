@@ -1,9 +1,8 @@
 # Whats app poll
 
-You should have python allready installed
+You should have python allready installed. Install the required libary for running the script.
 
 ```shell
-# Install the required libary for running the script
 python3 -m pip install pynput
 ```
 
