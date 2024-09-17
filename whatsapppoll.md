@@ -50,8 +50,7 @@ def append(dates):
 def datePrinter():
     dates = []
     append(dates)
-    print(dates)
-    time.sleep(5)
+    time.sleep(8)
     for i in range(NUMBER_OF_QUESTIONS):
         j = NUMBER_OF_QUESTIONS * INDEX + i
         if len(dates) > j:
