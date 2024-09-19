@@ -2,6 +2,12 @@
 
 Install homebrew here --> https://brew.sh
 
+## Deinstall a formula
+
+```shell
+brew uninstall --force <formula>
+```
+
 ## Mail adress
 
 ```

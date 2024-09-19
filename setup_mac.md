@@ -36,6 +36,7 @@ xargs -I {} brew install {} < brew.txt
 ```txt
 git
 gh
+maven
 ```
 
 ## App Store
