@@ -37,6 +37,8 @@ xargs -I {} brew install {} < brew.txt
 git
 gh
 maven
+tldr
+cheat
 ```
 
 ## App Store
