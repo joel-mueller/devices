@@ -25,6 +25,7 @@ docker
 anki
 microsoft-outlook
 firefox
+aldente
 ```
 
 ### Formulas
