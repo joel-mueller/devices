@@ -44,7 +44,10 @@ cheat
 
 ## App Store
 
-Install pages numbers and keynote from app store
+- Pages
+- Numbers
+- Keynote
+- Amphetamine (Using mac with lid closed without charging on monitor) -> https://apps.apple.com/ch/app/amphetamine/id937984704?l=en-GB&mt=12
 
 ## Settings
 
