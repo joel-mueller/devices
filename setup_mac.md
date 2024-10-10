@@ -40,6 +40,14 @@ gh
 maven
 tldr
 cheat
+mailsy
+speedtest-cli
+wifi-password
+mpv
+yt-dlp
+ffmpeg
+ocrmypdf
+pandoc
 ```
 
 ## App Store

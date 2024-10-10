@@ -82,6 +82,7 @@ ocrmypdf -l eng+deu input.pdf output.pdf
 ## Word to PDF converter
 
 Pandoc --> https://pandoc.org
+
 Kann man mit homebrew machen, aber bisher noch keine Zeit
 
 ## Markdown helper
