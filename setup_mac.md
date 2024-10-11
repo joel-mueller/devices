@@ -48,6 +48,7 @@ yt-dlp
 ffmpeg
 ocrmypdf
 pandoc
+ctop
 ```
 
 ## App Store
