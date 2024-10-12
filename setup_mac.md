@@ -25,8 +25,7 @@ docker
 anki
 microsoft-outlook
 firefox
-aldente
-google-drive
+libreoffice
 ```
 
 ### Formulas
