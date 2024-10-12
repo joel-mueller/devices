@@ -26,6 +26,7 @@ anki
 microsoft-outlook
 firefox
 aldente
+google-drive
 ```
 
 ### Formulas
