@@ -36,7 +36,6 @@ xargs -I {} brew install {} < brew.txt
 
 ```txt
 git
-gh
 maven
 tldr
 cheat
@@ -49,6 +48,7 @@ ffmpeg
 ocrmypdf
 pandoc
 ctop
+tectonic
 ```
 
 ## App Store

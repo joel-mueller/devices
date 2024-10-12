@@ -105,3 +105,8 @@ pandoc file1.md file2.md file3.md -o merged.md
 pandoc --toc -s example.md -o example_with_toc.md
 ```
 
+### Markdown to PDF
+
+```shell
+pandoc example.md --pdf-engine=tectonic --toc -o example.pdf
+```
