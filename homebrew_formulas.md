@@ -110,3 +110,19 @@ pandoc --toc -s example.md -o example_with_toc.md
 ```shell
 pandoc example.md --pdf-engine=tectonic --toc -o example.pdf
 ```
+
+Or define a yaml file for more adjustments
+
+```yaml
+title: "Your Document Title"
+geometry: 
+ - left=1in
+ - right=1in
+ - top=1in
+ - bottom=1in
+toc: true
+```
+
+```shell
+pandoc example.md --pdf-engine=tectonic --metadata-file=metadata.yaml -o example.pdf
+```
