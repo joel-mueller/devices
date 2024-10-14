@@ -1,3 +1,15 @@
+---
+title: "Homebrew formulas"
+author:
+- Joel Müller
+geometry: 
+ - left=1in
+ - right=1in
+ - top=1in
+ - bottom=1in
+toc: true
+---
+
 # Homebrew Formulas
 
 Install homebrew here --> https://brew.sh
@@ -108,13 +120,15 @@ pandoc --toc -s example.md -o example_with_toc.md
 ### Markdown to PDF
 
 ```shell
-pandoc example.md --pdf-engine=tectonic --toc -o example.pdf
+pandoc example.md --pdf-engine=tectonic -o example.pdf
 ```
 
-Or define a yaml file for more adjustments
+Or define a yaml file for more adjustments on the top on the md file (begin and start with ---)
 
 ```yaml
-title: "Your Document Title"
+title: "Homebrew formulas"
+author:
+- Joel Müller
 geometry: 
  - left=1in
  - right=1in
@@ -122,6 +136,8 @@ geometry:
  - bottom=1in
 toc: true
 ```
+
+Or make the file external
 
 ```shell
 pandoc example.md --pdf-engine=tectonic --metadata-file=metadata.yaml -o example.pdf
