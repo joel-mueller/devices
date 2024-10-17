@@ -18,7 +18,6 @@ visual-studio-code
 spotify
 discord
 brave-browser
-github
 rectangle
 zoom
 docker
@@ -26,6 +25,8 @@ anki
 microsoft-outlook
 firefox
 libreoffice
+intellij-idea-ce
+pdfsam-basic
 ```
 
 ### Formulas
