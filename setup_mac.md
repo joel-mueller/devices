@@ -50,6 +50,7 @@ ocrmypdf
 pandoc
 ctop
 tectonic
+htop
 ```
 
 ## App Store
