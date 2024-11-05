@@ -51,6 +51,7 @@ pandoc
 ctop
 tectonic
 htop
+go
 ```
 
 ## App Store
