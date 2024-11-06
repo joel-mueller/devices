@@ -52,6 +52,7 @@ ctop
 tectonic
 htop
 go
+tree
 ```
 
 ## App Store
