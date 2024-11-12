@@ -53,6 +53,7 @@ tectonic
 htop
 go
 tree
+ipcalc
 ```
 
 ## App Store
