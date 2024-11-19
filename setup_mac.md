@@ -27,6 +27,7 @@ firefox
 libreoffice
 intellij-idea-ce
 pdfsam-basic
+openjdk@21
 ```
 
 ### Formulas
