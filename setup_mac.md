@@ -27,7 +27,6 @@ firefox
 libreoffice
 intellij-idea-ce
 pdfsam-basic
-openjdk@21
 ```
 
 ### Formulas
@@ -56,6 +55,7 @@ go
 tree
 ipcalc
 bat
+openjdk@21
 ```
 
 ## App Store
