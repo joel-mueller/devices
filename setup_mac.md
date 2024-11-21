@@ -60,6 +60,8 @@ openjdk@21
 cloc
 ```
 
+Alias for bat: `alias batcat="bat --paging=never"`
+
 ## App Store
 
 - Pages
