@@ -54,6 +54,7 @@ htop
 go
 tree
 ipcalc
+bat
 ```
 
 ## App Store
