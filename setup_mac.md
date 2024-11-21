@@ -26,6 +26,7 @@ microsoft-outlook
 firefox
 libreoffice
 intellij-idea-ce
+pycharm-ce
 pdfsam-basic
 ```
 
