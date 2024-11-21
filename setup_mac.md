@@ -56,6 +56,7 @@ tree
 ipcalc
 bat
 openjdk@21
+cloc
 ```
 
 ## App Store
