@@ -30,4 +30,11 @@ and restart the service
 ```shell
 sudo systemctl restart systemd-logind.service
 ```
+Thinghs to download
+
+```shell
+sudo apt-get install git
+sudo apt-get install openssh-server
+sudo apt-get install vim
+```
 

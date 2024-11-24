@@ -115,7 +115,7 @@ Benachrichtigungen ausschalten
 
 generate ssh key
 
-````shell
+```shell
 ssh-keygen -t rsa -b 4096 -C "<name>"
 ssh-keygen -t ed25519 -C "<name>"
 ```
