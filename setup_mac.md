@@ -115,6 +115,11 @@ Benachrichtigungen ausschalten
 
 generate ssh key
 
+````shell
+ssh-keygen -t rsa -b 4096 -C "<name>"
+ssh-keygen -t ed25519 -C "<name>"
+```
+
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 Add keypair to github
