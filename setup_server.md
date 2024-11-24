@@ -38,3 +38,8 @@ sudo apt-get install openssh-server
 sudo apt-get install vim
 ```
 
+Install packages from the internet
+
+```shell
+sudo dpkg -i packagefilename.deb
+```
