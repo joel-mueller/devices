@@ -43,3 +43,9 @@ Install packages from the internet
 ```shell
 sudo dpkg -i packagefilename.deb
 ```
+
+## Install docker to the linux machine
+
+```shell
+https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
+```
