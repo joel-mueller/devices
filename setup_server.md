@@ -46,6 +46,4 @@ sudo dpkg -i packagefilename.deb
 
 ## Install docker to the linux machine
 
-```shell
-https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
-```
+[Docker installation ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
