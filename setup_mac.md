@@ -58,6 +58,7 @@ ipcalc
 bat
 openjdk@21
 cloc
+shellcheck
 ```
 
 Alias for bat: `alias batcat="bat --paging=never"`
