@@ -5,7 +5,8 @@ import subprocess
 REPO_MAP = {
     "s": "HSLU_SWDA",
     "l": "HSLU_LIOS",
-    "u": "HSLU_USAB"
+    "u": "HSLU_USAB",
+    "d": "DeviceToolKit"
 }
 
 # Check if an alias is provided
