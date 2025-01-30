@@ -37,6 +37,7 @@ xargs -I {} brew install {} < brew.txt
 ```
 
 ```txt
+wget
 git
 maven
 tldr

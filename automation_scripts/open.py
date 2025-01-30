@@ -6,7 +6,8 @@ REPO_MAP = {
     "s": "HSLU_SWDA",
     "l": "HSLU_LIOS",
     "u": "HSLU_USAB",
-    "d": "DeviceToolKit"
+    "d": "DeviceToolKit",
+    "a": "HSLU_LIAL"
 }
 
 # Check if an alias is provided
