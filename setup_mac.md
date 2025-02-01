@@ -119,6 +119,11 @@ generate ssh key
 
 ```shell
 ssh-keygen -t rsa -b 4096 -C "<name>"
+```
+
+or
+
+```shell
 ssh-keygen -t ed25519 -C "<name>"
 ```
 
@@ -127,3 +132,9 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 Add keypair to github
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+Copy the key to the server
+
+```shell
+ssh-copy-id -i .ssh/id_ed25519.pub user@server
+```
