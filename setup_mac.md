@@ -138,5 +138,3 @@ Copy the key to the server
 ```shell
 ssh-copy-id -i .ssh/id_ed25519.pub user@server
 ```
-
-
