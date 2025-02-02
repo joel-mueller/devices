@@ -138,3 +138,10 @@ Copy the key to the server
 ```shell
 ssh-copy-id -i .ssh/id_ed25519.pub user@server
 ```
+
+## Add github name
+
+```shell
+git config --global user.name "Joel Mueller"
+git config --global user.email joelmueller27@gmail.com
+```
