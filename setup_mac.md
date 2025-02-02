@@ -86,7 +86,7 @@ Alias for bat: `alias batcat="bat --paging=never"`
 
 ## Java
 
-Install the Java development package here -> https://code.visualstudio.com/docs/java/java-tutorial
+Install java from the oracle website here -> https://www.oracle.com/java/technologies/downloads/#java21
 
 ## Python
 
