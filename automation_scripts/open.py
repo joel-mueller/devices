@@ -3,11 +3,12 @@ import subprocess
 
 # Define a mapping of aliases to GitHub repository names
 REPO_MAP = {
-    "s": "HSLU_SWDA",
-    "l": "HSLU_LIOS",
-    "u": "HSLU_USAB",
-    "d": "DeviceToolKit",
-    "a": "HSLU_LIAL"
+    "w": "hslu-weblab",
+    "q": "world-quiz",
+    "d": "devices",
+    "s": "hslu-swat",
+    "p": "hslu-pcp",
+    "i": "hslu-intro-qc"
 }
 
 # Check if an alias is provided
