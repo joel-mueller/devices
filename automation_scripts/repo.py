@@ -3,15 +3,15 @@ import subprocess
 
 # Define a mapping of aliases to GitHub repository names
 REPO_MAP = {
-    "q": "hslu-intro-qc",
-    "d": "devices",
-    "s": "hslu-swat",
-    "p": "hslu-pcp"
+"q": "hslu-intro-qc",
+"d": "devices",
+"s": "hslu-swat",
+"p": "hslu-pcp"
 }
 
 OTHER_WEBSITES = {
-    "w": "https://github.com/qubegubble/caqtdm_opcua",
-    "i": "https://gpuhub.labservices.ch/"
+"w": "https://github.com/qubegubble/caqtdm_opcua",
+"i": "https://gpuhub.labservices.ch/"
 }
 
 if len(sys.argv) < 2:
