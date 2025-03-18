@@ -10,7 +10,8 @@ REPO_MAP = {
 }
 
 OTHER_WEBSITES = {
-    "w": "https://github.com/qubegubble/caqtdm_opcua"
+    "w": "https://github.com/qubegubble/caqtdm_opcua",
+    "i": "https://gpuhub.labservices.ch/"
 }
 
 if len(sys.argv) < 2:
