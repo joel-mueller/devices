@@ -27,8 +27,17 @@ source .zshrc
 Aliases can also be added this way in the `.zshrc` file
 
 ```shell
-alias ll='ls -lah'
-alias gs='git status'
+alias es='eza'
+alias tree='tree -C'
+alias bat='bat --paging=never'
 ```
 
 after that, you have to reload
+
+## Add coulours to vim
+
+Create file `~/.vimrc` and add following text into it:
+
+```shell
+syntax on
+```
