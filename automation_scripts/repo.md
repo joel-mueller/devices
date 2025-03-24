@@ -2,6 +2,12 @@
 
 ## Repo Opener
 
+Make a softlink from the shell script to home
+
+```shell
+ln -s devices/automation_scripts/repo.py .
+```
+
 Clone the repository
 
 Move the `repo` script to local bin
