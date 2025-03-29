@@ -28,6 +28,7 @@ libreoffice
 intellij-idea-ce
 pycharm-ce
 pdfsam-basic
+iterm2
 ```
 
 ### Formulas
