@@ -29,6 +29,8 @@ intellij-idea-ce
 pycharm-ce
 pdfsam-basic
 iterm2
+qbittorrent
+vlc
 ```
 
 ### Formulas

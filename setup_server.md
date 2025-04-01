@@ -9,6 +9,8 @@ Enable ssh
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install openssh-server
+sudo service ssh status
+sudo service ssh start
 ```
 
 settings when lid is closed according to a [website](https://itsfoss.com/laptop-lid-suspend-ubuntu/)
@@ -23,6 +25,13 @@ and then change following rows to this setting
 HandleLidSwitch=ignore
 HandleLidSwitchExternalPower=ignore
 HandleLidSwitchDocked=ignore
+```
+
+before, it was
+```shell
+#HandleLidSwitch=suspend
+#HandleLidSwitchExternalPower=suspend
+#HandleLidSwitchDocked=ignore
 ```
 
 and restart the service
