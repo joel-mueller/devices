@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python3 $HOME/repo.py $1

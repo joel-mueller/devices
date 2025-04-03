@@ -5,7 +5,7 @@
 Make a softlink from the shell script to home
 
 ```shell
-ln -s devices/automation_scripts/repo.py .
+ln -s devices/config/repo.py .
 ```
 
 Clone the repository
@@ -13,7 +13,7 @@ Clone the repository
 Move the `repo` script to local bin
 
 ```shell
-cp devices/automation_scripts/repo /usr/local/bin
+cp $HOME/devices/config/repo /usr/local/bin
 ```
 
 open the `~/.zshrc` config file and add the following path to the `$PATH` variable. When you run a command in the terminal, it searches the `$PATH` for all scripts with that name, so i have to add it that it can be found.
@@ -46,4 +46,8 @@ Create file `~/.vimrc` and add following text into it:
 
 ```shell
 syntax on
+set relativenumber
+set number
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
 ```
