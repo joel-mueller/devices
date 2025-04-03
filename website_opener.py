@@ -11,7 +11,8 @@ REPO_MAP = {
 
 OTHER_WEBSITES = {
 "w": "https://github.com/qubegubble/caqtdm_opcua",
-"i": "https://gpuhub.labservices.ch/"
+"i": "https://gpuhub.labservices.ch/",
+"e": "https://github.com/tstangenberg/enlab-queue-fs25"
 }
 
 if len(sys.argv) < 2:
