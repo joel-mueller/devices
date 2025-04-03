@@ -1,7 +1,7 @@
 visual-studio-code
 spotify
-discord
 brave-browser
+discord
 rectangle
 zoom
 docker
@@ -10,8 +10,7 @@ microsoft-outlook
 firefox
 libreoffice
 intellij-idea-ce
-pycharm-ce
 pdfsam-basic
-iterm2
 qbittorrent
 vlc
+protonvpn

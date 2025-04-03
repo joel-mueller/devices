@@ -1,10 +1,3 @@
-alias es='eza'
-alias tree='tree -C'
-alias bat='bat --paging=never'
-web() {
-    python3 $HOME/devices/website_opener.py $1
-}
-
 source $HOME/antigen.zsh
 
 # Load the oh-my-zsh's library
@@ -25,3 +18,17 @@ antigen theme robbyrussell
 
 # Tell Antigen that you're done.
 antigen apply
+
+# Declare the Aliases
+alias es='eza'
+alias tree='tree -C'
+alias bat='bat --paging=never'
+
+# Declare the Functions for opening things fast
+web() {
+    python3 $HOME/devices/automation_scripts/website_opener.py $1
+}
+app() {
+    open /Applications.$1.app
+}
+

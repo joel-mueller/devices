@@ -14,10 +14,8 @@ pandoc
 ctop
 tectonic
 htop
-go
 tree
 ipcalc
-bat
-openjdk@21
 cloc
 shellcheck
+tmux
