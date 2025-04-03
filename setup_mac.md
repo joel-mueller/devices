@@ -1,71 +1,4 @@
-# Setup new Mac
-
-Setup and login to apple id
-Make sure the passwords are all synchronized
-
-## Homebrew
-
-Download Homebrew from the site -> https://brew.sh
-
-### Cask
-
-```shell
-xargs -I {} brew install --cask {} < apps.txt
-```
-
-```txt
-visual-studio-code
-spotify
-discord
-brave-browser
-rectangle
-zoom
-docker
-anki
-microsoft-outlook
-firefox
-libreoffice
-intellij-idea-ce
-pycharm-ce
-pdfsam-basic
-iterm2
-qbittorrent
-vlc
-```
-
-### Formulas
-
-```shell
-xargs -I {} brew install {} < brew.txt
-```
-
-```txt
-wget
-git
-maven
-tldr
-cheat
-mailsy
-speedtest-cli
-wifi-password
-mpv
-yt-dlp
-ffmpeg
-ocrmypdf
-pandoc
-ctop
-tectonic
-htop
-go
-tree
-ipcalc
-bat
-openjdk@21
-cloc
-shellcheck
-```
-
-Alias for bat: `alias batcat="bat --paging=never"`
+# Install Mac
 
 ## App Store
 
@@ -130,21 +63,8 @@ or
 ssh-keygen -t ed25519 -C "<name>"
 ```
 
-https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-
-Add keypair to github
-
-https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
-
-Copy the key to the server
+## Copy the key to the server
 
 ```shell
 ssh-copy-id -i .ssh/id_ed25519.pub user@server
-```
-
-## Add github name
-
-```shell
-git config --global user.name "Joel Mueller"
-git config --global user.email joelmueller27@gmail.com
 ```

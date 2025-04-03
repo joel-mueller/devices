@@ -1,24 +1,4 @@
-# Whats app poll
-
-You should have python allready installed. Install the required libary for running the script.
-
-```shell
-python3 -m pip install pynput
-```
-
-Go to the directory you want the script and use vim to edit it (`i` to edit, esc button to go into reader mode, `:wq` to safe)
-
-```shell
-vim poll.py
-```
-
-Run the python script
-
-```shell
-python3 poll.py
-```
-
-```python
+# Note: pyinput has to be installed : python3 -m pip install pynput
 from datetime import date, timedelta
 from pynput.keyboard import Key, Controller
 import time
@@ -62,4 +42,3 @@ def datePrinter():
     time.sleep(1)
 
 datePrinter()
-```

@@ -1,5 +1,7 @@
 # Installation of repo
 
+echo "Note, homebrew has to be installed: Download Homebrew from the site -> https://brew.sh"
+
 PATH_OF_CONFIGFILES="${HOME}/devices/homebrew"
 
 # Install homebrew formulas
