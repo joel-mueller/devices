@@ -6,7 +6,8 @@ REPO_MAP = {
 "q": "hslu-intro-qc",
 "d": "devices",
 "s": "hslu-swat",
-"p": "hslu-pcp"
+"p": "hslu-pcp",
+"n": "notes"
 }
 
 OTHER_WEBSITES = {

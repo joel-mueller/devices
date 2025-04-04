@@ -1,23 +1,29 @@
-# Installation of repo
+#!/bin/bash
 
-echo "Note, homebrew has to be installed: Download Homebrew from the site -> https://brew.sh"
+echo "Note: Homebrew has to be installed. Download Homebrew from https://brew.sh"
 
 PATH_OF_CONFIGFILES="${HOME}/devices/homebrew"
 
-# Install homebrew formulas
-echo "Install the homebrew formulas"
-read -p "Do you want to install the homebrew formulas? (y/n): " install_homebrew
-if [[ "$install_homebrew" =~ ^[Yy]$ ]]; then
-    xargs brew install < $PATH_OF_CONFIGFILES/formulas.txt
-else
-  echo "Skipping homebrew formulas installation."
-fi
+# Loop through all formula files
+echo "Checking formulas..."
+for formula_file in "$PATH_OF_CONFIGFILES/formulas/"*; do
+  echo "Found formula list: $(basename "$formula_file")"
+  read -p "Do you want to install the formulas from '${formula_file}'? (y/n): " install_homebrew
+  if [[ "$install_homebrew" =~ ^[Yy]$ ]]; then
+    xargs brew install < "$formula_file"
+  else
+    echo "Skipping formulas from $formula_file"
+  fi
+done
 
-# Install homebrew casks
-echo "Install the homebrew casks"
-read -p "Do you want to install the homebrew casks? (y/n): " install_casks
-if [[ "$install_casks" =~ ^[Yy]$ ]]; then
-    xargs brew install --cask < $PATH_OF_CONFIGFILES/casks.txt
-else
-  echo "Skipping homebrew casks installation."
-fi
+# Loop through all cask files
+echo "Checking casks..."
+for cask_file in "$PATH_OF_CONFIGFILES/casks/"*; do
+  echo "Found cask list: $(basename "$cask_file")"
+  read -p "Do you want to install the casks from '${cask_file}'? (y/n): " install_casks
+  if [[ "$install_casks" =~ ^[Yy]$ ]]; then
+    xargs brew install --cask < "$cask_file"
+  else
+    echo "Skipping casks from $cask_file"
+  fi
+done

@@ -1,3 +1,7 @@
 # DeviceToolkit
 
-Just a small git repo with some templates, device installation and cheatsheets, will be update soon
+## TODO
+
+- [ ] Solve web opener better
+- [ ] Write a application opener for `app brave`
+- [ ] Remove useless homebrew formulas and add only the essential to it, maybe also let the file be given with like `install_formulas essentials.txt`
