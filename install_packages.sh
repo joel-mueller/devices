@@ -8,7 +8,7 @@ PATH_OF_CONFIGFILES="${HOME}/devices/homebrew"
 # $1 = directory path, $2 = brew command (e.g., "brew install", "brew install --cask")
 install() {
   local dir_path="$1"
-  local brew_cmd="$2"
+  local install_cmd="$2"
 
   if [ ! -d "$dir_path" ]; then
     echo "Directory not found: $dir_path"
@@ -18,10 +18,10 @@ install() {
   for file in "$dir_path"/*; do
     if [ -f "$file" ]; then
       echo "Found installation list: $(basename "$file")"
-      read -rp "Do you want to install the formulas from '${file}'? (y/n): " install_file
+      read -rp "Do you want to install the applications from '${file}'? (y/n): " install_file
       if [[ "$install_file" =~ ^[Yy]$ ]]; then
-        echo "Installing from $file using '$brew_cmd'..."
-        xargs -I {} bash -c "$brew_cmd {}" < "$file"
+        echo "Installing from $file using '$install_cmd'..."
+        xargs -I {} bash -c "$install_cmd {}" < "$file"
       else
         echo "Skipping file: $file"
       fi
