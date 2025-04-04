@@ -2,3 +2,5 @@
 [user]
 	name = Joel Mueller
 	email = joelmueller27@gmail.com
+[alias]
+	cm = commit -m

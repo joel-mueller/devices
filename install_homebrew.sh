@@ -1,29 +1,39 @@
 #!/bin/bash
 
-echo "Note: Homebrew has to be installed. Download Homebrew from https://brew.sh"
+echo "Note: Homebrew must be installed. Download it from https://brew.sh if you haven't already."
 
 PATH_OF_CONFIGFILES="${HOME}/devices/homebrew"
 
-# Loop through all formula files
-echo "Checking formulas..."
-for formula_file in "$PATH_OF_CONFIGFILES/formulas/"*; do
-  echo "Found formula list: $(basename "$formula_file")"
-  read -p "Do you want to install the formulas from '${formula_file}'? (y/n): " install_homebrew
-  if [[ "$install_homebrew" =~ ^[Yy]$ ]]; then
-    xargs brew install < "$formula_file"
-  else
-    echo "Skipping formulas from $formula_file"
-  fi
-done
+# Function to process installation files in a directory
+# $1 = directory path, $2 = brew command (e.g., "brew install", "brew install --cask")
+install() {
+  local dir_path="$1"
+  local brew_cmd="$2"
 
-# Loop through all cask files
-echo "Checking casks..."
-for cask_file in "$PATH_OF_CONFIGFILES/casks/"*; do
-  echo "Found cask list: $(basename "$cask_file")"
-  read -p "Do you want to install the casks from '${cask_file}'? (y/n): " install_casks
-  if [[ "$install_casks" =~ ^[Yy]$ ]]; then
-    xargs brew install --cask < "$cask_file"
-  else
-    echo "Skipping casks from $cask_file"
+  if [ ! -d "$dir_path" ]; then
+    echo "Directory not found: $dir_path"
+    return
   fi
-done
+
+  for file in "$dir_path"/*; do
+    if [ -f "$file" ]; then
+      echo "Found installation list: $(basename "$file")"
+      read -rp "Do you want to install the formulas from '${file}'? (y/n): " install_file
+      if [[ "$install_file" =~ ^[Yy]$ ]]; then
+        echo "Installing from $file using '$brew_cmd'..."
+        xargs -I {} bash -c "$brew_cmd {}" < "$file"
+      else
+        echo "Skipping file: $file"
+      fi
+    fi
+  done
+}
+
+echo ""
+echo "Install Homebrew formulas"
+install "${PATH_OF_CONFIGFILES}/formulas" "brew install"
+
+echo ""
+echo "Install Cask formulas"
+install "${PATH_OF_CONFIGFILES}/casks" "brew install --cask"
+
