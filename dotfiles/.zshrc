@@ -21,7 +21,7 @@ antigen apply
 
 # Declare the Aliases
 alias es='eza'
-alias tree='tree -C'
+alias treec='tree -C'
 alias bat='bat --paging=never'
 
 # Declare the Functions for opening things fast
