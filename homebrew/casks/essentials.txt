@@ -6,7 +6,6 @@ rectangle
 zoom
 docker
 anki
-microsoft-outlook
 firefox
 libreoffice
 intellij-idea-ce

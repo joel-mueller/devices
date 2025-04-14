@@ -28,6 +28,9 @@ alias bat='bat --paging=never'
 web() {
     python3 $HOME/devices/automation_scripts/website_opener.py $1
 }
+repo() {
+    python3 $HOME/devices/automation_scripts/repo_opener.py $1
+}
 app() {
     open /Applications.$1.app
 }
