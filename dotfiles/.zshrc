@@ -34,4 +34,6 @@ repo() {
 app() {
     open /Applications.$1.app
 }
-
+c() {
+    curl cheat.sh/$1
+}
