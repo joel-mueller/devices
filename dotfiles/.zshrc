@@ -37,3 +37,6 @@ app() {
 c() {
     curl cheat.sh/$1
 }
+recall() {
+    
+}
