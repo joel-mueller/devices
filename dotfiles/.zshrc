@@ -20,9 +20,8 @@ antigen theme robbyrussell
 antigen apply
 
 # Declare the Aliases
-alias es='eza'
-alias treec='tree -C'
-alias bat='bat --paging=never'
+alias d='docker'
+alias dc='docker compose'
 
 # Declare the Functions for opening things fast
 web() {
@@ -36,7 +35,4 @@ app() {
 }
 c() {
     curl cheat.sh/$1
-}
-recall() {
-    
 }

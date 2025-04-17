@@ -8,6 +8,9 @@ set expandtab
 
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
+nnoremap H ^
+
+vnoremap H ^
 
 inoremap <C-c> <Esc>
 

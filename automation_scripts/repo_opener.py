@@ -7,6 +7,7 @@ REPO_MAP = {
 "d": "devices",
 "s": "hslu-swat",
 "p": "hslu-pcp",
+"w": "hslu-wipro",
 "n": "notes"
 }
 
