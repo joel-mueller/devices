@@ -22,6 +22,8 @@ antigen apply
 # Declare the Aliases
 alias d='docker'
 alias dc='docker compose'
+alias copy='xsel --input --clipboard'
+alias paste='xsel --clipboard'
 
 # Declare the Functions for opening things fast
 web() {
