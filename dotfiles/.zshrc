@@ -23,7 +23,7 @@ antigen apply
 alias d='docker'
 alias dc='docker compose'
 alias copy='xsel --input --clipboard'
-alias paste='xsel --clipboard'
+alias paste='xsel --output --clipboard'
 
 # Declare the Functions for opening things fast
 web() {
