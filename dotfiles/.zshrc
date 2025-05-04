@@ -25,16 +25,18 @@ alias dc='docker compose'
 alias copy='xsel --input --clipboard'
 alias paste='xsel --output --clipboard'
 
+# Created by `pipx` on 2025-05-03 20:45:29
+export PATH="$PATH:/Users/joeldevelop/.local/bin"
+
 # Declare the Functions for opening things fast
 web() {
     python3 $HOME/devices/automation_scripts/website_opener.py $1
 }
-repo() {
-    python3 $HOME/devices/automation_scripts/repo_opener.py $1
-}
+
 app() {
     open /Applications.$1.app
 }
+
 ch() {
     curl cheat.sh/$1
 }

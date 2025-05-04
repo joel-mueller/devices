@@ -37,3 +37,9 @@ echo ""
 echo "Install Cask formulas"
 install "${PATH_OF_CONFIGFILES}/casks" "brew install --cask"
 
+echo ""
+echo "Install Pipx programs"
+pipx install tavern
+
+echo ""
+echo "Done ."
