@@ -3,11 +3,11 @@ import subprocess
 
 # Define a mapping of aliases to GitHub repository names
 REPO_MAP = {
-"q": "hslu-intro-qc",
+"qr": "hslu-intro-qc",
 "d": "devices",
 "s": "hslu-swat",
 "p": "hslu-pcp",
-"w": "hslu-wipro",
+"wr": "hslu-wipro",
 "n": "notes"
 }
 
