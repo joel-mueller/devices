@@ -24,6 +24,7 @@ alias d='docker'
 alias dc='docker compose'
 alias copy='xsel --input --clipboard'
 alias paste='xsel --output --clipboard'
+alias la='ls -lha'
 
 # Created by `pipx` on 2025-05-03 20:45:29
 export PATH="$PATH:/Users/joeldevelop/.local/bin"
