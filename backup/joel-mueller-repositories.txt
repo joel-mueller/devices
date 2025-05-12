@@ -16,6 +16,7 @@ git@github.com:joel-mueller/hslu-lial.git
 git@github.com:joel-mueller/hslu-nand-2-tetris.git
 git@github.com:joel-mueller/hslu-oop.git
 git@github.com:joel-mueller/hslu-pcp.git
+git@github.com:joel-mueller/hslu-pcp-exercise.git
 git@github.com:joel-mueller/hslu-pren-1.git
 git@github.com:joel-mueller/hslu-pren-2.git
 git@github.com:joel-mueller/hslu-swat.git
