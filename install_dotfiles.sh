@@ -28,4 +28,5 @@ echo "Linking dotfiles"
 ls -A $PATH_OF_DOTFILES | xargs -I {} ln -nfs $PATH_OF_DOTFILES/{} $HOME/{}
 
 # Linking .vimrc dotfile to a new intellij dotfile
+[ -e "$HOME/.ideavimrc" ] && rm "$HOME/.ideavimrc"
 ln -s "$HOME/.vimrc" "$HOME/.ideavimrc"
