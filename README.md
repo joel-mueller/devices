@@ -13,5 +13,5 @@ Change default shell to zsh: `sudo apt install zsh` and  `chsh -s $(which zsh)` 
 ## Backup the Repositories
 
 ```shell
-curl https://github.com/joel-mueller/devices/blob/main/backup/backup_repositories.sh | sh
+curl https://raw.githubusercontent.com/joel-mueller/devices/refs/heads/main/backup/backup_repositories.sh | sh
 ```
