@@ -11,3 +11,7 @@ curl https://raw.githubusercontent.com/joel-mueller/devices/refs/heads/main/apt/
 
 echo ""
 echo "Done ."
+
+echo ""
+echo "Making shell zsh shell"
+chsh -s $(which zsh)
