@@ -15,3 +15,9 @@ Change default shell to zsh: `sudo apt install zsh` and  `chsh -s $(which zsh)` 
 ```shell
 curl https://raw.githubusercontent.com/joel-mueller/devices/refs/heads/main/backup/backup_repositories.sh | sh
 ```
+
+## Install Important Packages
+
+```shell
+curl https://raw.githubusercontent.com/joel-mueller/devices/refs/heads/main/apt/install.sh | sh
+```
