@@ -32,6 +32,7 @@ git@github.com:joel-mueller/learning-c.git
 git@github.com:joel-mueller/learning-go.git
 git@github.com:joel-mueller/learning-python.git
 git@github.com:joel-mueller/notes.git
+git@github.com:joel-mueller/pdate.git
 git@github.com:joel-mueller/Scrumdinger.git
 git@github.com:joel-mueller/Solve_Triangles.git
 git@github.com:joel-mueller/Today.git
