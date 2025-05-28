@@ -1,6 +1,6 @@
 # This is Git's per-user configuration file.
 [user]
-	name = Joel Mueller
+	name = Joel Müller
 	email = joelmueller27@gmail.com
 [alias]
 	cm = commit -m
