@@ -25,10 +25,10 @@ alias = sys.argv[1]
 
 if alias in REPO_MAP:
     repo_name = REPO_MAP[alias]
-    url = f"https://github.com/joel-mueller/{repo_name}"
+    url = f"https://github.com/joel-muller/{repo_name}"
 elif alias in WEBSITES:
     url = WEBSITES[alias]
 else:
-    url = f"https://github.com/joel-mueller/{alias}"
+    url = f"https://github.com/joel-muller/{alias}"
 
 subprocess.run(["open", url])
